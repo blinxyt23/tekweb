@@ -1,99 +1,62 @@
-body    {
-    padding: 100px;
-    background-image: linear-gradient(-20deg, #f6e9f6 0%, #4ab1ff 100%);
-    text-align: center;
-    font-family: 'quicksand', sans-serif;
-}
-ul {
-    margin-left: -45;
-}
-li {
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
     list-style: none;
-    display: inline-block;
-}
-.main {
-    width: 800px;
-    height: 520px;
-    background-color: #b6edfc;
-    margin: 0 auto;
-    padding-top: 20px;
-    border-radius: 10px;
-    border: 1px solid #eeeeee'
-}
-.img {
-    background-image: url(Nizar.jpeg);
-    background-color: #0f66c8;
-    background-size: cover;
-    border-radius: 100px;
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    border: 1px solid #b6edfc;
-}
-h1 {
-    text-align: center;
-    font-size: 30px;
-    margin: 0;
-    font-weight: bold;
-    color: #1c7ac7;
-}
-.text {
-    text-align: center ;
-    font-size: 10px;
-    padding-top: 0px;
-    margin: 0;
-    color: #324e63;
-}
-p {
-    margin: 0 auto;
-    padding-top: 20px;
-    width: 450px;
-    height: auto;
-    color: #324e63;
 }
 
-.btn-floating {
-    position: fixed;
-    right: 25px;
-    overflow: hidden;
-    width: 50px;
-    height: 50px;
-    border-radius: 100px;
-    border: 0;
-    z-index: 9999;
+
+body    {
+   font-family: 'Courier New', Courier, monospace;
+   background-image: url(bg.jpg);
+   background-size: auto;
+   background-attachment: fixed;
+   background-repeat:inherit;
+}
+
+nav{
+    background-color: rgb(35, 15, 145);
+    height: 80px;
+    width: 100%;
+}
+label.logo{
     color: white;
-    transition: .2s;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{float: right;
+    margin-right: 20px;
 }
 
-.btn-floating:hover {
-    width: auto;
-    padding: 0 20px;
-    cursor: pointer;
-}
-
-.btn-floating span{
-    font-size: 16px;
-    margin-left: 5px;
-    transition: .2s;
-    line-height: 0px;
-    display: none;
-}
-
-.btn-floating:hover span {
+nav ul li{
     display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color:whitesmoke;
+    font-size: 18px;
+    padding: 9px 13px;
+    text-transform: uppercase;
+    border-radius: 3px;
+
+}
+a.active,a:hover{
+    background: #0b5893;
+    transition:.5s ;
+    
 }
 
-.btn-floating:hover img {
-    margin-bottom: -3px;
-    display: block;
+.checkbtn{
+font-size: 30px;
+ color: white;
+ float: left;
+ line-height: 80px;
+ margin-left: 40px;
 }
 
-.btn-floating.Whatsapp {
-    bottom: 25px;
-    background-color: #16be00;
-    border: 2px solid #fff;
-}
 
-.btn-floating.Whatsapp:hover {
-    background-color: #105707;
-}
+
