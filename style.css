@@ -15,24 +15,6 @@ body    {
    background-repeat:inherit;
    background-image: url(bg.jpg);
    
-}
-.content{
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
-    width: 750px;
-    overflow: hidden;
-}
-.content .images{
-    height: 100%;
-    width: 100%;
-    filter: blur(8px);
-}
-
-.images img{
-    height: 100% ;
-    width: 100%;
-}
 
 nav{
     background-color: rgb(35, 15, 145);
