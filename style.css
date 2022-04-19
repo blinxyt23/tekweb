@@ -4,15 +4,17 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    
 }
 
 
 body    {
-   font-family: 'Courier New', Courier, monospace;
-   background-image: url(bg.jpg);
+   font-family: 'Helvetica';
    background-size: auto;
    background-attachment: fixed;
    background-repeat:inherit;
+   background-image: url(bg.jpg);
+   
 }
 .content{
     margin-left: auto;
@@ -24,6 +26,7 @@ body    {
 .content .images{
     height: 100%;
     width: 100%;
+    filter: blur(8px);
 }
 
 .images img{
@@ -85,7 +88,16 @@ font-size: 30px;
     text-align: center;
     padding-bottom: ;
     padding: 10px;
+    position: bottom;
     }
 
+.p{
+    background color: aquamarine;
+}
+
+.jumbotron{
+    padding: 60px 18px;
+    background-color: #0b5893;
+}
 
 
