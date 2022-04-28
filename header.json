@@ -1,0 +1,18 @@
+{
+    "title": "Muhammad Nizar Taufiqurahman",
+    "description":
+      "Ini adalah tempat saya untuk berbagi segala pengetahuan yang saya peroleh tentang koding dan teknologi.",
+    "social": {
+      "ig": {
+        "url": "https://instagram.com/mnizart_t",
+        "title": "fareedsurya"
+      },
+      
+      "yt": {
+        "url": "https://www.youtube.com/channel/UCDmBSRfEqeR-Vaqu4c3lNZg",
+        "title": "Lucky Blues"
+      }
+    },
+    "imageProfile":
+      "https://raw.githubusercontent.com/faridsurya/Vue-Axios-Basic/master/images/farid_1_remove_bg.png"
+  }
