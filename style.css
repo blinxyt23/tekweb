@@ -1,99 +1,86 @@
-
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
+.cover {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+.cover .masking {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  top: 0;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 0;
+}
+.cover .credit {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.cover .social a {
+  color: white;
+}
+.cover img{
+  width: 300px;
 }
 
-
-body    {
-   font-family: 'Helvetica';
-   background-size: auto;
-   background-attachment: fixed;
-   background-repeat:inherit;
-   background-image: url(bg.jpg);
-   
-}
-.content{
-    margin-left: auto;
-    margin-right: auto;
-    height: 400px;
-    width: 750px;
-    overflow: hidden;
-}
-.content .images{
-    height: 100%;
-    width: 100%;
-    filter: blur(8px);
-}
-
-.images img{
-    height: 100% ;
-    width: 100%;
+.jumbotron {
+  text-align: center;
 }
 
 nav{
-    background-color: rgb(35, 15, 145);
-    height: 80px;
-    width: 100%;
+  background-color: rgb(35, 15, 145);
+  height: 80px;
+  width: 100%;
 }
 label.logo{
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
 }
 nav ul{float: right;
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
 }
 nav ul li a{
-    color:whitesmoke;
-    font-size: 18px;
-    padding: 9px 13px;
-    text-transform: uppercase;
-    border-radius: 3px;
+  color:whitesmoke;
+  font-size: 18px;
+  padding: 9px 13px;
+  text-transform: uppercase;
+  border-radius: 3px;
 
 }
 a.active,a:hover{
-    background: #0b5893;
-    transition:.5s ;
-    
+  background: #0b5893;
+  transition:.5s ;
+  
 }
 
 .checkbtn{
 font-size: 30px;
- color: white;
- float: left;
- line-height: 80px;
- margin-left: 40px;
+color: white;
+float: left;
+line-height: 80px;
+margin-left: 40px;
 }
 
 .btn-sliders{
-    position: absolute;
-    bottom: 20px;
+  position: absolute;
+  bottom: 20px;
 }
 
 .copyright{
-    color: white;
-    background-color: #0b5893;
-    text-align: center;
-    padding: 10px;
-    position: bottom;
-    }
-
-
-
-.jumbotron{
-    padding: 60px 18px;
-    background-color: #0b5893;
-}
-
-
+  color: white;
+  background-color: #0b5893;
+  text-align: center;
+  padding: 10px;
+  position: bottom;
+  }
