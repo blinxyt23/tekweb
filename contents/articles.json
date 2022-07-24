@@ -7,4 +7,13 @@
 		"published_at": "",
 		"content": "articles1.md"
 	}
+	
+	{
+		"title":"Jaringan Komputer",
+		"description": " kamu akan mengenal apa itu tentang jaringan komputer yang sering kita gunakan dalam komunikasi internet.'",
+		"thumbnail": "https://www.dictio.id/uploads/db3342/original/3X/9/6/96fcfe955525a442d36404c79a3373793d985316.jpeg",
+		"author": "Muhammad Nizar Taufiqurahman",
+		"published_at": "",
+		"content": "articles2.md"
+	}
 ]
