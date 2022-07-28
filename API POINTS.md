@@ -1,3 +1,5 @@
+#USERS
+
 GET: /users/
 
 response:
@@ -17,7 +19,7 @@ GET: /users/[id]
 reponse:
 [
 {
-    "id"            : "",
+    "ID"            : "",
     "name"          : "",
     "motto"         : "",
     "ig"        : "",
@@ -27,7 +29,7 @@ reponse:
 ]
 
 POST: /users/
-
+[
 {
     "ID"            : "",
     "name"          : "",
@@ -36,7 +38,7 @@ POST: /users/
     "yt"        : "",
     "avatar_url"    : "",
 }
-
+]
 PUT: /users
 
 data:
@@ -48,8 +50,10 @@ false   // if failure
 [
 
 response:
+[
 true    // if success
 false   // if failure
+[
 
 DELETE: /users/[id]
 
@@ -61,19 +65,17 @@ false   // if failure
 }
 ]
 
+
+#ARTICLES
 GET: /articles
 
 response:
 [
 {
-        "id"            : "",
-        "author_id"     : "",
-        "author_name"   : "",
+        "ID"            : "",
         "title"         : "",
         "content"       : "",
-        "thumbnail_url" : "",
-        "author_id"     : "",
-        "created_date"  : ""
+        "thumbnail"     : "",
 }
 ]
 
@@ -86,7 +88,7 @@ response:
     "id"            : "",
     "title"         : "",
     "content"       : "",
-    "thumbnail" : "",
+    "thumbnail"     : "",
 }
 ]
 
