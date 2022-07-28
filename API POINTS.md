@@ -39,8 +39,9 @@ POST: /users/
     "avatar_url"    : "",
 }
 ]
-PUT: /users
 
+
+PUT: /users
 data:
 [
 {
