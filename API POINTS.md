@@ -1,14 +1,14 @@
-GET: /users/[ID]
+GET: /users/
 
 response:
 [
 {
-    "ID"        : "",
-    "Nama"      : "",
-    "Avatar_URL : "",
-    "Motto"     : "",
-    "Github_URL : "",
-    "IG_URL     : "",
+   "ID"            : "",
+    "name"          : "",
+    "motto"         : "",
+    "ig"        : "",
+    "yt"        : "",
+    "avatar_url"    : "",
  }
  ]
 
@@ -20,40 +20,45 @@ reponse:
     "id"            : "",
     "name"          : "",
     "motto"         : "",
-    "ig_url"        : "",
-    "fb_url"        : "",
-    "girhub_url"    : "",
+    "ig"        : "",
+    "yt"        : "",
     "avatar_url"    : "",
 }
 ]
 
-GET: /portfolios
+POST: /users/
+
+{
+    "ID"            : "",
+    "name"          : "",
+    "motto"         : "",
+    "ig"        : "",
+    "yt"        : "",
+    "avatar_url"    : "",
+}
+
+PUT: /users
+
+data:
+[
+{
+true    // if success
+false   // if failure
+{
+[
+
+response:
+true    // if success
+false   // if failure
+
+DELETE: /users/[id]
 
 response:
 [
-    {
-        "id"            : "",
-        "author_id"     : "",
-        "author_name"   : "",
-        "title"         : "",
-        "description    : "",
-        "thumbnail_url" : "",
-        "technologies"  : "",
-    }
- ]
-GET: /portfolios/author/author_id
-
-response:
-[
-    {
-        "id"            : "",
-        "author_id"     : "",
-        "author_name"   : "",
-        "title"         : "",
-        "description    : "",
-        "thumbnail_url" : "",
-        "technologies"  : "",
-    },
+{
+true    // if success
+false   // if failure
+}
 ]
 
 GET: /articles
@@ -79,54 +84,40 @@ response:
 [
 {
     "id"            : "",
-    "author_id"     : "",
-    "author_name"   : "",
     "title"         : "",
     "content"       : "",
-    "thumbnail_url" : "",
-    "author_id"     : "",
-    "created_date"  : "",
+    "thumbnail" : "",
 }
 ]
 
-POST: /articles
-
-data:
-{       
-    "title"         : "",
-    "author_id"     : "",
-    "content"       : "",
-    "thumbnail_url" : "",
-    "author_id"     : "",
-    "created_date"  : ""
-}
 
 response:
 true    // if success
 false   // if failure
 
+POST: /articles/
 
+{
+"ID":           "",
+"title":        "",
+"description":  "",
+"thumbnail":    "",
+"url":          ""
+}
 
 PUT: /articles
 
 data:
 [
-{      
-    "id"            : "", 
-    "author_id"     : "",
-    "title"         : "",
-    "content"       : "",
-    "thumbnail_url" : "",
-    "author_id"     : "",
-    "created_date"  : ""
-}
-]
+{
+true    // if success
+false   // if failure
+{
+[
 
 response:
 true    // if success
 false   // if failure
-
-
 
 DELETE: /articles/[id]
 
